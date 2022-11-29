@@ -98,7 +98,8 @@ const {currentUser} = props;
               className="faArrowLeft"
             />
           </span>
-          <svg
+            <span style={{fontSize:30,fontWeight:'bold'}}>Book seva</span>
+          {/* <svg
             width="48px"
             height="48px"
             viewBox="0 0 1024 1024"
@@ -110,7 +111,7 @@ const {currentUser} = props;
               className="rui-77aaa"
               d="M661.333 256v512h-128v-512h128zM277.333 298.667c117.824 0 213.333 95.531 213.333 213.333s-95.509 213.333-213.333 213.333c-117.824 0-213.333-95.531-213.333-213.333s95.509-213.333 213.333-213.333zM794.496 384l37.504 37.504 37.504-37.504h90.496v90.496l-37.504 37.504 37.504 37.504v90.496h-90.496l-37.504-37.504-37.504 37.504h-90.496v-90.496l37.504-37.504-37.504-37.504v-90.496h90.496zM277.333 426.667c-47.061 0-85.333 38.293-85.333 85.333s38.272 85.333 85.333 85.333c47.061 0 85.333-38.293 85.333-85.333s-38.272-85.333-85.333-85.333z"
             ></path>
-          </svg>
+          </svg> */}
         </Link>
       </Navbar>
       <div className="container-fluid">
@@ -133,14 +134,9 @@ const {currentUser} = props;
                     id="category"
                     onChange={formik.handleChange}
                   >
-                    <option>Select Category</option>
-                    <option>Mobile Phone</option>
-                    <option>Cars</option>
-                    <option>Motorcycles</option>
-                    <option>Houses</option>
-                    <option>Electronics</option>
-                    <option>Tablet</option>
-                    <option>Land and plots</option>
+               
+                    <option>Book</option>
+                   
                   </Input>
                 </FormGroup>
 

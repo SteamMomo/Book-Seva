@@ -40,17 +40,17 @@ useEffect(() => {
           <div className="row w-100 rowParent">
             <div className="col-lg-4 col-md-3 col-sm-2 d-flex logoParent">
               <Link to="/" className='ml-3 mt-4 navbar-brand'>
-                <h3>Logo</h3>
+                <h3>💫 Book Seva</h3>
               </Link>
-              <div className='header__category'>
+              {/* <div className='header__category'>
                 <FontAwesomeIcon icon={faSearch} size="lg" className='searchIcon' />
                 <input type='text' className='inputCategory' defaultValue='Karachi Sindh' />
                 <FontAwesomeIcon icon={faChevronDown} size="lg" className='header__caretDown' />
-              </div>
+              </div> */}
             </div>
             <div className="col-lg-6 header__searchParent">
               <div className='header__search'>
-                <input type='text' className='inputSearch' onChange={(e) => setSearchField(e.target.value)}  placeholder='Find Cars Mobile Phone and More' />
+                <input type='text' className='inputSearch' onChange={(e) => setSearchField(e.target.value)}  placeholder='Find Books' />
                 <span className='header__searchParent' onClick={()=> searchProduct() }><FontAwesomeIcon icon={faSearch} size="lg" className='header__searchBtn' /></span>
               </div>
             </div>

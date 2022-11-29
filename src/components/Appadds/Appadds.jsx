@@ -11,7 +11,7 @@ function Appadds() {
 </div> 
 <div className='col-lg-4 col-md-12 col-12 col-sm-4'>
 <h1 className='display-5 app__heading'>
-TRY THE OLX APP
+TRY THE Book Seva APP
 
 </h1>
 <p>Buy, sell and find just about anything using the app on your mobile.</p>

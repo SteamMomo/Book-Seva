@@ -11,12 +11,12 @@ function Home() {
   return (
     <>
       <Header />
-      <Category />
-      <Banner />
-      <Adds />
-      <Featured heading='Based on Your Last Search'/>
+                    {/* <Category />
+                    <Banner />
+                    <Adds />
+                    <Featured heading='Based on Your Last Search'/> */}
       <Products />
-      <Appadds />
+      {/* <Appadds /> */}
       <Footer />
   </>
   );

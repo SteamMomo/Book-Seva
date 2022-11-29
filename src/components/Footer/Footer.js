@@ -14,20 +14,20 @@ function Footer() {
         <div className="footer__main container-fluid">
           <div className="section__parent row">
             <section className="footer__section col-lg-3 col-md-3 col-sm-6">
-              Popular Categories<ul>
+              Popular Books<ul>
                 <li>
                   <span className="footer__list" >
-                    Cars
+                  Alchemist
                   </span>
                 </li>
                 <li>
                   <span className="footer__list" >
-                    Flats for rent
+                  It starts with us
                   </span>
                 </li>
                 <li>
                   <span className="footer__list" >
-                    Jobs
+                  Black Holes
                   </span>
                 </li>
                 <li>
@@ -35,7 +35,7 @@ function Footer() {
                     className="footer__list"
 
                   >
-                    Mobile Phones
+                    Mocking Bird
                   </span>
                 </li>
               </ul>
@@ -45,28 +45,28 @@ function Footer() {
                 <li>
                   <span
                     className="footer__list">
-                    Bikes
+                    Black Holes
                   </span>
                 </li>
                 <li>
                   <span
                     className="footer__list"
                   >
-                    Watches
+                    Three Thousand Stitches
                   </span>
                 </li>
                 <li>
                   <span
                     className="footer__list"
                   >
-                    Books
+                    It starts with us
                   </span>
                 </li>
                 <li>
                   <span
                     className="footer__list"
                   >
-                    Dogs
+                    Alchemist
                   </span>
                 </li>
               </ul>
@@ -75,12 +75,12 @@ function Footer() {
               About us<ul>
                 <li>
                   <span className="footer__list">
-                    About OLX Group
+                    About Book Seva Group
                   </span>
                 </li>
                 <li>
                   <span className="footer__list">
-                    OLX Blog
+                    Book Seva Blog
                   </span>
                 </li>
                 <li>
@@ -90,13 +90,13 @@ function Footer() {
                 </li>
                 <li>
                   <span className="footer__list">
-                    OLX for Businesses
+                    Book Seva for Businesses
                   </span>
                 </li>
               </ul>
             </section>
             <section className="footer__section col-lg-2 col-md-2 col-sm-6">
-              OLX<ul>
+              Book Seva<ul>
                 <li>
                   <span className="footer__list">
                     Help
@@ -152,19 +152,19 @@ function Footer() {
         <div className="footer__bottom">
           <div className="section__parent">
             <section className="footer__section">
-              <span>Design and Developed By <a target="_blank" rel=" noopener noreferrer"
-               href="https://sites.google.com/view/hamzaeportfolio">HAMZA YOUSUF</a></span> OLX Clone
+              <span>Made with ❤️ by <a target="_blank" rel=" noopener noreferrer"
+               href="https://sites.google.com/view/hamzaeportfolio">Book Seva Team</a></span>
             </section>
             <section className="footer__section section2">
               <span>Other Countries</span>
               <span className="footer__list">
                 India
               </span>
-              -
+              
               <span className="footer__list">
                 South Africa
               </span>
-              -
+            
               <span className="footer__list">
                 Indonesia
               </span>
